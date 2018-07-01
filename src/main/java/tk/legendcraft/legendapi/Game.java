@@ -1,4 +1,4 @@
-package me.chachy.legendapi;
+package tk.legendcraft.legendapi;
 
 public enum Game {
     KIT_PVP("KitPVP", "Kit", 2);
@@ -13,7 +13,7 @@ public enum Game {
         this.dbName = dbName;
         this.id = id;
     }
-    
+
     public static Game fromId(int id) {
         for (Game gameType : VALUES) {
             if (gameType.id == id) {
