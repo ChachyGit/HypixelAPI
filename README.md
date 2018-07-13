@@ -15,7 +15,7 @@ Gradle
 Adding the dependency:
 ```gradle
     dependencies {
-        compile "com.github.ChachyGit:LegendAPI:master-SNAPSHOT"
+        compile "com.github.LegendCraftEurope:LegendAPI:master-SNAPSHOT"
     }
 
 ```
@@ -33,7 +33,7 @@ Maven
  Adding the dependency:
 ```xml
 <dependency>
-    <groupId>com.github.ChachyGit</groupId>
+    <groupId>com.github.LegendCraftEurope</groupId>
     <artifactId>LegendAPI</artifactId>
     <version>master-SNAPSHOT</version>
 </dependency>
